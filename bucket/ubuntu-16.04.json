@@ -1,0 +1,12 @@
+{
+    "ubuntu:16.04":
+    {
+    "source": "https://cloud-images.ubuntu.com",
+    "date": "2022/03/08 14:05:37",
+    "description": "Official Ubuntu 16.04 LTS (Xenial Xerus) [20211001]",
+    "note": "",
+    "archive": "https://cloud-images.ubuntu.com/releases/16.04/release/ubuntu-16.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "746bad563c891240c505c4955c4a134749db3ff9d9b0fa15ec6cab77518260ff",
+    "size": "245 MB"
+    }
+}

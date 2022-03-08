@@ -1,0 +1,12 @@
+{
+    "ubuntu:18.04":
+    {
+    "source": "https://cloud-images.ubuntu.com",
+    "date": "2022/03/08 14:47:55",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20220302]",
+    "note": "",
+    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "964a8e7573d5d76614b3a74eee55b668346172e425bc592df041f191d631b66e",
+    "size": "293 MB"
+    }
+}

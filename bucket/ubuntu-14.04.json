@@ -1,0 +1,12 @@
+{
+    "ubuntu:14.04": 
+    {
+      "source": "https://wsldownload.azureedge.net",
+      "date": "2021/06/11 07:53:00",
+      "description": "Microsoft Archived Ubuntu Server 14.04 LTS (Trusty Tahr)",
+      "note": "Issues with initctl, policy-rc.d and tail",
+      "archive": "https://wsldownload.azureedge.net/14.04.5.3-server-cloudimg-amd64-root.tar.gz",
+      "sha256": "ff38b4c393260d1a282c0987005de5d2704d94979f247c90d548e85badcff673",
+      "size": "181.80 MB"
+    }
+}

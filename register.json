@@ -1,0 +1,38 @@
+{
+  "ubuntu:14.04": {
+    "source": "https://wsldownload.azureedge.net",
+    "date": "2021/06/11 07:53:00",
+    "description": "Microsoft Archived Ubuntu Server 14.04 LTS (Trusty Tahr)",
+    "note": "Issues with initctl, policy-rc.d and tail",
+    "archive": "https://wsldownload.azureedge.net/14.04.5.3-server-cloudimg-amd64-root.tar.gz",
+    "sha256": "ff38b4c393260d1a282c0987005de5d2704d94979f247c90d548e85badcff673",
+    "size": "181.80 MB"
+  },
+  "ubuntu:16.04": {
+    "source": "https://cloud-images.ubuntu.com",
+    "date": "2022/03/08 14:05:37",
+    "description": "Official Ubuntu 16.04 LTS (Xenial Xerus) [20211001]",
+    "note": "",
+    "archive": "https://cloud-images.ubuntu.com/releases/16.04/release/ubuntu-16.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "746bad563c891240c505c4955c4a134749db3ff9d9b0fa15ec6cab77518260ff",
+    "size": "245 MB"
+  },
+  "ubuntu:18.04": {
+    "source": "https://cloud-images.ubuntu.com",
+    "date": "2022/03/08 14:47:55",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20220302]",
+    "note": "",
+    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "964a8e7573d5d76614b3a74eee55b668346172e425bc592df041f191d631b66e",
+    "size": "293 MB"
+  },
+  "ubuntu:20.04": {
+    "source": "https://cloud-images.ubuntu.com",
+    "date": "2022/03/08 14:49:14",
+    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20220302]",
+    "note": "",
+    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "859a5444e73fd92c7f5cb600549cf60745f517ee5ce762fdd59727f29f987675",
+    "size": "490 MB"
+  }
+}
