@@ -3,10 +3,10 @@
     {
     "source": "https://cloud-images.ubuntu.com",
     "date": "2022/03/08 14:49:14",
-    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20220302]",
+    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20220322]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "859a5444e73fd92c7f5cb600549cf60745f517ee5ce762fdd59727f29f987675",
+    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20220322/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "663a8d3daa979e22f68cffcb5fb0b899aa81e3fe6c706a35e412ad42d9940003",
     "size": "490 MB"
     }
 }
