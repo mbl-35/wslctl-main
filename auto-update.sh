@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for release in 16.04 18.04 20.04; do
+for release in 16.04 18.04 20.04 22.04; do
     
     # sha256 file
     sha256file="https://cloud-images.ubuntu.com/releases/$release/release/SHA256SUMS"
