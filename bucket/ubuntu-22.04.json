@@ -2,11 +2,11 @@
     "ubuntu:22.04":
     {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/05/20 08:30:54",
-    "description": "Official Ubuntu 22.04 (Jammy Jellyfish) [20220506]",
+    "date": "2022/07/19 09:31:51",
+    "description": "Official Ubuntu 22.04 (Jammy Jellyfish) [20220712]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/releases/22.04/release/ubuntu-22.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "fd1e0f77f20f7577561222438f022db378b949b4857ec5ceff1d28e7a5d79c1f",
-    "size": "633 MB"
+    "sha256": "1fd297b8aa18ddcc4d42b29c48307039648c7d47bc8731ffbbc691ebfb3d3a37",
+    "size": "653 MB"
     }
 }
