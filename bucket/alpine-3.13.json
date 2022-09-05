@@ -1,0 +1,12 @@
+{
+    "alpine:3.13":
+    {
+    "source": "https://alpinelinux.org/",
+    "date": "2022/09/05 09:42:38",
+    "description": "Official Alpine Mini root filesystem 3.13.12 [20220809]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-minirootfs-3.13.12-x86_64.tar.gz",
+    "sha256": "78b4146b1542d392da1491f3712aeda401e160f0c00dd9e9b7a02c6734255b1d",
+    "size": "2.7 MB"
+    }
+}
