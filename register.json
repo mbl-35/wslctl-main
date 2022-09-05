@@ -1,4 +1,31 @@
 {
+  "alpine:3.13": {
+    "source": "https://alpinelinux.org/",
+    "date": "2022/09/05 09:42:38",
+    "description": "Official Alpine Mini root filesystem 3.13.12 [20220809]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-minirootfs-3.13.12-x86_64.tar.gz",
+    "sha256": "78b4146b1542d392da1491f3712aeda401e160f0c00dd9e9b7a02c6734255b1d",
+    "size": "2.7 MB"
+  },
+  "alpine:3.14": {
+    "source": "https://alpinelinux.org/",
+    "date": "2022/09/05 09:42:45",
+    "description": "Official Alpine Mini root filesystem 3.14.8 [20220809]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-minirootfs-3.14.8-x86_64.tar.gz",
+    "sha256": "8374022af21ba1397554f1f2ede9d0409dcbcf2a206d6cb6e55976bb2f15c806",
+    "size": "2.7 MB"
+  },
+  "alpine:3.15": {
+    "source": "https://alpinelinux.org/",
+    "date": "2022/09/05 09:42:53",
+    "description": "Official Alpine Mini root filesystem 3.15.6 [20220809]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-minirootfs-3.15.6-x86_64.tar.gz",
+    "sha256": "1ae0c0e09a7a5dc6f1550c25c8793124c2ae52825cbf035a7ad249d628953cec",
+    "size": "2.7 MB"
+  },
   "alpine:3.16": {
     "source": "https://alpinelinux.org/",
     "date": "2022/09/02 16:36:01",
@@ -28,11 +55,11 @@
   },
   "ubuntu:18.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/08/29 11:02:06",
-    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20220810]",
+    "date": "2022/09/05 09:46:55",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20220901]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/releases/18.04/release/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "62b40852b90fb6f151c9c7d6c70e78125ba6d3d82852cd756ff68460e82c9601",
+    "sha256": "51ea0ee07874e7aec547d1d1c3f1fff01fae5744d32136913cd5c1a9cc7b8477",
     "size": "296 MB"
   },
   "ubuntu:20.04": {
@@ -46,11 +73,11 @@
   },
   "ubuntu:22.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/08/29 11:04:45",
-    "description": "Official Ubuntu 22.04 (Jammy Jellyfish) [20220810]",
+    "date": "2022/09/05 09:49:38",
+    "description": "Official Ubuntu 22.04 (Jammy Jellyfish) [20220902]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/releases/22.04/release/ubuntu-22.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "d90ced5a8f559d465992f56a7d79f047237cca406784edd5ff4ba5e5d89a42e4",
-    "size": "657 MB"
+    "sha256": "2a38727f7ff573634a23c472e3772bc8c8d8db0324bc0472e5fe6215b26bffb4",
+    "size": "683 MB"
   }
 }

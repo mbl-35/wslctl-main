@@ -2,11 +2,11 @@
     "ubuntu:18.04":
     {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/08/29 11:02:06",
-    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20220810]",
+    "date": "2022/09/05 09:46:55",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20220901]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/releases/18.04/release/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "62b40852b90fb6f151c9c7d6c70e78125ba6d3d82852cd756ff68460e82c9601",
+    "sha256": "51ea0ee07874e7aec547d1d1c3f1fff01fae5744d32136913cd5c1a9cc7b8477",
     "size": "296 MB"
     }
 }
