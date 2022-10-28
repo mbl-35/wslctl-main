@@ -2,7 +2,7 @@
     "ubuntu:16.04":
     {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/03/08 14:05:37",
+    "date": "2022/07/28 10:52:00",
     "description": "Official Ubuntu 16.04 LTS (Xenial Xerus) [20211001]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/releases/16.04/release-20211001/ubuntu-16.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",

@@ -46,7 +46,7 @@
   },
   "ubuntu:16.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/03/08 14:05:37",
+    "date": "2022/07/28 10:52:00",
     "description": "Official Ubuntu 16.04 LTS (Xenial Xerus) [20211001]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/releases/16.04/release-20211001/ubuntu-16.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
@@ -55,29 +55,29 @@
   },
   "ubuntu:18.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/09/05 09:46:55",
-    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20220901]",
+    "date": "2022/10/15 07:30:21",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20221014]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "51ea0ee07874e7aec547d1d1c3f1fff01fae5744d32136913cd5c1a9cc7b8477",
+    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20221014/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "6dee5becc705b2820a2b762d07b2dbe8ee19ef573cf17673726c3609e2a54f30",
     "size": "296 MB"
   },
   "ubuntu:20.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/08/29 11:03:17",
-    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20220824]",
+    "date": "2022/10/19 07:32:00",
+    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20221018]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "6b4008c4206c54d76bb4de784be1a67fdd7f71917cbd5ca31e5a7a4c6d1e52b0",
-    "size": "501 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20221018/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "39b6f0a595cbf2a40998cf809f4632f6d0b24f4b996b89ee36532c8810cea8c4",
+    "size": "503 MB"
   },
   "ubuntu:22.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/09/05 09:49:38",
-    "description": "Official Ubuntu 22.04 (Jammy Jellyfish) [20220902]",
+    "date": "2022/09/24 07:00:00",
+    "description": "Official Ubuntu 22.04 (Jammy Jellyfish) [20220923]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/22.04/release/ubuntu-22.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "2a38727f7ff573634a23c472e3772bc8c8d8db0324bc0472e5fe6215b26bffb4",
-    "size": "683 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "b7c556daa2b630d2a633d825432f24253cb9018753bcc8dd661434345e40bb62",
+    "size": "686 MB"
   }
 }

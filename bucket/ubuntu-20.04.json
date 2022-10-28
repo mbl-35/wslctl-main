@@ -2,11 +2,11 @@
     "ubuntu:20.04":
     {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/10/18 14:49:02",
-    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20221014]",
+    "date": "2022/10/19 07:32:00",
+    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20221018]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "1643bfbdcc50a7eb05c6cc86db015ada9040e6d9c6960d612cc69814bb2b93c9",
+    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20221018/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "39b6f0a595cbf2a40998cf809f4632f6d0b24f4b996b89ee36532c8810cea8c4",
     "size": "503 MB"
     }
 }
