@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # ----------- ALPINE ----------------------------------------------------------------
-for release in 3.13 3.14 3.15 3.16; do
+for release in 3.13 3.14 3.15 3.16 3.17; do
     buckettag="alpine:$release"
     bucketfile=bucket/alpine-$release.json
 
     releaseIndexUrl="https://dl-cdn.alpinelinux.org/alpine/v$release/releases/x86_64/"
     releaseRegExp='>alpine-minirootfs-[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+-x86_64.tar.gz<'
 
-    releaseLine="$(curl -sL --fail $releaseIndexUrl | grep -E $releaseRegExp | sed -e 's/<[^>]*>//g' |  sort --version-sort | tail -n1)"
+    releaseLine="$(curl -sL --fail $releaseIndexUrl | grep -E $releaseRegExp | sed -e 's/<[^>]*>//g' | sort --version-sort | tail -n1)"
     if [ -z "$releaseLine" ]; then
         echo "NO WSL Found for Alpine release $release"
         [ -f "$bucketfile" ] && rm $bucketfile
@@ -26,12 +26,11 @@ for release in 3.13 3.14 3.15 3.16; do
     sha256file="$releaseIndexUrl$archivefile.sha256"
     sha256="$(curl -sL $sha256file | cut -d' ' -f1)"
 
-
     description="Alpine Mini root filesystem $latestRelease [$latestReleaseDateConverted]"
 
     echo "$buckettag: $latestReleaseDate, $description, $sha256 - $archiveurl"
     bucketsha256=""
-    
+
     [ -f "$bucketfile" ] || echo "$buckettag: Bucket file not found"
     [ -f "$bucketfile" ] && bucketsha256="$(jq -r '.[].sha256' $bucketfile)"
 
@@ -43,7 +42,7 @@ for release in 3.13 3.14 3.15 3.16; do
         curl -L $archiveurl -o $archivefile
         # check download sha256:
         downloadsha256="$(sha256sum $archivefile | cut -d' ' -f1)"
-        if  [ "$downloadsha256" != "$sha256" ]; then 
+        if [ "$downloadsha256" != "$sha256" ]; then
             echo "$buckettag: Download integrity ERROR: $downloadsha256 != $sha256"
             exit 2
         fi
@@ -52,7 +51,8 @@ for release in 3.13 3.14 3.15 3.16; do
         rm -f $archivefile
 
         # update bucket file:
-        bucket=$(cat <<JSON
+        bucket=$(
+            cat <<JSON
 {
     "$buckettag":
     {
@@ -66,7 +66,7 @@ for release in 3.13 3.14 3.15 3.16; do
     }
 }
 JSON
-)
+        )
         echo "$bucket" | tee $bucketfile
     fi
     echo
@@ -88,7 +88,7 @@ for release in 16.04 18.04 20.04 22.04; do
         latest_build_base_url="$ubuntu_repo/release-$test_build"
         sha256file="$latest_build_base_url/SHA256SUMS"
         sha256="$(curl -sL $sha256file | grep $archivefile | cut -d' ' -f1)"
-        if [ ! -z "$sha256" ]; then 
+        if [ ! -z "$sha256" ]; then
             latest_build="$test_build"
             latest_build_sha256="$sha256"
             latest_build_archive="$latest_build_base_url/$archivefile"
@@ -98,14 +98,14 @@ for release in 16.04 18.04 20.04 22.04; do
         fi
     done
 
-    if [ -z "$sha256" ]; then 
+    if [ -z "$sha256" ]; then
         echo "NO WSL Found for release $release"
         [ -f "$bucketfile" ] && rm $bucketfile
         continue
     fi
 
     echo "release: $release edition: $latest_build"
-    echo "sha256: $latest_build_sha256  url: $latest_build_archive" 
+    echo "sha256: $latest_build_sha256  url: $latest_build_archive"
     echo "date: $latest_build_datetime"
     echo "description: $latest_build_description"
 
@@ -114,14 +114,14 @@ for release in 16.04 18.04 20.04 22.04; do
     [ -f "$bucketfile" ] && bucketsha256="$(jq -r '.[].sha256' $bucketfile)"
 
     if [ "$bucketsha256" = "$latest_build_sha256" ]; then
-            echo "$buckettag: Integrity checked"
+        echo "$buckettag: Integrity checked"
     else
         # download:
         echo "Downloading $latest_build_archive"
         curl -L $latest_build_archive -o $archivefile
         # check download sha256:
         downloadsha256="$(sha256sum $archivefile | cut -d' ' -f1)"
-        if  [ "$downloadsha256" != "$latest_build_sha256" ]; then 
+        if [ "$downloadsha256" != "$latest_build_sha256" ]; then
             echo "$buckettag: Download integrity ERROR: $downloadsha256 != $latest_build_sha256"
             exit 2
         fi
@@ -130,7 +130,8 @@ for release in 16.04 18.04 20.04 22.04; do
         rm -f $archivefile
 
         # update bucket file:
-        bucket=$(cat <<JSON
+        bucket=$(
+            cat <<JSON
 {
     "$buckettag":
     {
@@ -144,7 +145,7 @@ for release in 16.04 18.04 20.04 22.04; do
     }
 }
 JSON
-)
+        )
         echo "$bucket" | tee $bucketfile
     fi
     echo
@@ -152,5 +153,5 @@ JSON
 done
 
 # Finally compose global register.json
-find ./bucket -name "*.json" -exec cat {} \; | jq -M -s 'reduce .[] as $d ({}; . *=$d)' > register.json
+find ./bucket -name "*.json" -exec cat {} \; | jq -M -s 'reduce .[] as $d ({}; . *=$d)' >register.json
 cat register.json
