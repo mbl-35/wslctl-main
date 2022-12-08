@@ -28,12 +28,21 @@
   },
   "alpine:3.16": {
     "source": "https://alpinelinux.org/",
-    "date": "2022/09/02 16:36:01",
-    "description": "Official Alpine Mini root filesystem 3.16.2 [20220809]",
+    "date": "2022/11/11 18:04:00",
+    "description": "Official Alpine Mini root filesystem 3.16.3 [20221111]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-minirootfs-3.16.2-x86_64.tar.gz",
-    "sha256": "bea608c9ae0190096f1671dfbef9d6868701681e3870eecad658dde032c5885c",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-minirootfs-3.16.3-x86_64.tar.gz",
+    "sha256": "1b53f74e86c7ef5ac94c7b1394d7ca8cbc7666b47688ee964a3a7f0fad243d02",
     "size": "2.6 MB"
+  },
+  "alpine:3.17": {
+    "source": "https://alpinelinux.org/",
+    "date": "2022/11/22 13:06:00",
+    "description": "Official Alpine Mini root filesystem 3.17.0 [20221122]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-minirootfs-3.17.0-x86_64.tar.gz",
+    "sha256": "f250085f7f8f310710380fa2cd0a4510fb2f1209eb6614bc265fc07278775510",
+    "size": "3.2 MB"
   },
   "ubuntu:14.04": {
     "source": "https://wsldownload.azureedge.net",
@@ -55,29 +64,20 @@
   },
   "ubuntu:18.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/10/15 07:30:21",
-    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20221014]",
+    "date": "2022/12/08 07:30:00",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20221207]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20221014/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "6dee5becc705b2820a2b762d07b2dbe8ee19ef573cf17673726c3609e2a54f30",
-    "size": "296 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20221207/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "eb2e6e32d8db518b3e40406d9f6983e9f217d0fcccc8813b074f1c22db1224f7",
+    "size": "303 MB"
   },
   "ubuntu:20.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/10/19 07:32:00",
-    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20221018]",
+    "date": "2022/12/02 16:00:00",
+    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20221201]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20221018/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "39b6f0a595cbf2a40998cf809f4632f6d0b24f4b996b89ee36532c8810cea8c4",
-    "size": "503 MB"
-  },
-  "ubuntu:22.04": {
-    "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/09/24 07:00:00",
-    "description": "Official Ubuntu 22.04 (Jammy Jellyfish) [20220923]",
-    "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "b7c556daa2b630d2a633d825432f24253cb9018753bcc8dd661434345e40bb62",
-    "size": "686 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20221201/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "00c46790997e550eaff73990b04bc5d1fdcf887045428fa9ee6962c1d3bdb894",
+    "size": "535 MB"
   }
 }
