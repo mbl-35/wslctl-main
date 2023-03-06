@@ -72,42 +72,75 @@ JSON
     echo
 done
 
-# ----------- UBUNTU ----------------------------------------------------------------
+# ----------- UBUNTU < 22.04---------------------------------------------------------
+declare -A ubuntuReleaseNames=(\
+    [16.04]="Xenial Xerus" \
+    [18.04]="Bionic Beaver" \
+    [20.04]="Focal Fossa" \
+    [22.04]="Jammy Jellyfish" \
+)
 
-for release in 16.04 18.04 20.04 22.04; do
-    ubuntu_repo="https://cloud-images.ubuntu.com/releases/$release"
-    archivefile="ubuntu-$release-server-cloudimg-amd64-wsl.rootfs.tar.gz"
+#for release in 16.04 18.04 20.04 22.04; do
+for release in 22.04; do
+    echo "..."
     buckettag="ubuntu:$release"
     bucketfile=bucket/ubuntu-$release.json
+    sha256=""
+    
+    if [ $release < "22.04" ]; then
+        ubuntu_repo="https://cloud-images.ubuntu.com/releases/$release"
+        archivefile="ubuntu-$release-server-cloudimg-amd64-wsl.rootfs.tar.gz"
 
-    echo "..."
 
-    # get latest build version containing wsl ...
-    latest_build=latest_build_archive=latest_build_sha256=latest_build_description=latest_build_datetime=""
-    for test_build in $(curl -sL --fail $ubuntu_repo/ | grep release- | sed 's/.*>release-\([0-9.]*\).*/\1/' | tac); do
-        latest_build_base_url="$ubuntu_repo/release-$test_build"
-        sha256file="$latest_build_base_url/SHA256SUMS"
-        sha256="$(curl -sL $sha256file | grep $archivefile | cut -d' ' -f1)"
-        if [ ! -z "$sha256" ]; then
-            latest_build="$test_build"
-            latest_build_sha256="$sha256"
-            latest_build_archive="$latest_build_base_url/$archivefile"
-            latest_build_description="$(curl -sL --fail $latest_build_base_url/ | sed -n 's/<h1>\(.*\)<\/h1>/\1/Ip')"
-            latest_build_datetime="$(curl -sL --fail $ubuntu_repo/ | grep release-$latest_build | sed 's/.*\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\} [0-9]\{2\}:[0-9]\{2\}\).*/\1/')"
-            break
+        # get latest build version containing wsl ...
+        latest_build=latest_build_archive=latest_build_sha256=latest_build_description=latest_build_datetime=""
+        for test_build in $(curl -sL --fail $ubuntu_repo/ | grep release- | sed 's/.*>release-\([0-9.]*\).*/\1/' | tac); do
+            latest_build_base_url="$ubuntu_repo/release-$test_build"
+            sha256file="$latest_build_base_url/SHA256SUMS"
+            sha256="$(curl -sL $sha256file | grep $archivefile | cut -d' ' -f1)"
+            if [ ! -z "$sha256" ]; then
+                latest_build="$test_build"
+                latest_build_sha256="$sha256"
+                latest_build_archive="$latest_build_base_url/$archivefile"
+                latest_build_description="$(curl -sL --fail $latest_build_base_url/ | sed -n 's/<h1>\(.*\)<\/h1>/\1/Ip')"
+                latest_build_datetime="$(curl -sL --fail $ubuntu_repo/ | grep release-$latest_build | sed 's/.*\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\} [0-9]\{2\}:[0-9]\{2\}\).*/\1/')"
+                break
+            fi
+        done
+
+    else # 22.04+
+        release_name="${ubuntuReleaseNames[$release]}"
+        release_short_name="$(echo $release_name | sed -e 's/\s.*$//' | tr '[:upper:]' '[:lower:]' )"
+        archivefile="ubuntu-$release_short_name-wsl-amd64-wsl.rootfs.tar.gz"
+        releaseIndexUrl="https://cloud-images.ubuntu.com/wsl/$release_short_name"
+        releaseRegExp='>[[:digit:]]+/<'
+        releaseLine="$(curl -sL --fail $releaseIndexUrl/ | grep -E $releaseRegExp | sed -e 's/<[^>]*>//g' -e 's#/##g' | awk '{ print $1 " " $2;}' | sort --version-sort | tail -n1)"
+        if [ ! -z "$releaseLine" ]; then
+            latest_build="$(echo $releaseLine| cut -d' ' -f1)"
+            latest_build_base_url="$releaseIndexUrl/$latest_build"
+
+            sha256file="$latest_build_base_url/SHA256SUMS"
+            sha256="$(curl -sL $sha256file | grep $archivefile | cut -d' ' -f1)"
+            if [ ! -z "$sha256" ]; then
+                latest_build_sha256="$sha256"
+                latest_build_archive="$latest_build_base_url/$archivefile"
+                latest_build_description="Official Ubuntu $release LTS ($release_name) [$latest_build]"
+                latest_build_datetime="$(curl -sL --fail $latest_build_base_url/ | grep $archivefile | sed 's/.*\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\} [0-9]\{2\}:[0-9]\{2\}\).*/\1/')"
+            fi
         fi
-    done
+    fi
 
     if [ -z "$sha256" ]; then
         echo "NO WSL Found for release $release"
         [ -f "$bucketfile" ] && rm $bucketfile
         continue
     fi
-
+    
     echo "release: $release edition: $latest_build"
     echo "sha256: $latest_build_sha256  url: $latest_build_archive"
     echo "date: $latest_build_datetime"
     echo "description: $latest_build_description"
+    echo "bucketfile: $bucketfile"
 
     # check integrity with already referenced
     [ -f "$bucketfile" ] || echo "$buckettag: Bucket file not found"
