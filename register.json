@@ -10,38 +10,38 @@
   },
   "alpine:3.14": {
     "source": "https://alpinelinux.org/",
-    "date": "2022/09/05 09:42:45",
-    "description": "Official Alpine Mini root filesystem 3.14.8 [20220809]",
+    "date": "2023/02/10 16:47:00",
+    "description": "Official Alpine Mini root filesystem 3.14.9 [20230210]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-minirootfs-3.14.8-x86_64.tar.gz",
-    "sha256": "8374022af21ba1397554f1f2ede9d0409dcbcf2a206d6cb6e55976bb2f15c806",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-minirootfs-3.14.9-x86_64.tar.gz",
+    "sha256": "8584236de67e263cc698f44d475d917ce63496a1a387b4ebb9f91aa109db7a56",
     "size": "2.7 MB"
   },
   "alpine:3.15": {
     "source": "https://alpinelinux.org/",
-    "date": "2022/09/05 09:42:53",
-    "description": "Official Alpine Mini root filesystem 3.15.6 [20220809]",
+    "date": "2023/02/10 16:47:00",
+    "description": "Official Alpine Mini root filesystem 3.15.7 [20230210]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-minirootfs-3.15.6-x86_64.tar.gz",
-    "sha256": "1ae0c0e09a7a5dc6f1550c25c8793124c2ae52825cbf035a7ad249d628953cec",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-minirootfs-3.15.7-x86_64.tar.gz",
+    "sha256": "14122bfe6a73c3e4c50e082e4ef7811ae52ebcebf006c989aa773deae3a764c8",
     "size": "2.7 MB"
   },
   "alpine:3.16": {
     "source": "https://alpinelinux.org/",
-    "date": "2022/11/11 18:04:00",
-    "description": "Official Alpine Mini root filesystem 3.16.3 [20221111]",
+    "date": "2023/02/10 16:46:00",
+    "description": "Official Alpine Mini root filesystem 3.16.4 [20230210]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-minirootfs-3.16.3-x86_64.tar.gz",
-    "sha256": "1b53f74e86c7ef5ac94c7b1394d7ca8cbc7666b47688ee964a3a7f0fad243d02",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-minirootfs-3.16.4-x86_64.tar.gz",
+    "sha256": "468c3c014cda11bda20678952fd40b3934aa45d2e107ad95d5bf827730e2933a",
     "size": "2.6 MB"
   },
   "alpine:3.17": {
     "source": "https://alpinelinux.org/",
-    "date": "2023/01/09 12:46:00",
-    "description": "Official Alpine Mini root filesystem 3.17.1 [20230109]",
+    "date": "2023/02/10 16:45:00",
+    "description": "Official Alpine Mini root filesystem 3.17.2 [20230210]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-minirootfs-3.17.1-x86_64.tar.gz",
-    "sha256": "602c903f27eb8f4b2983f5216cb5f3f4312b90ac5c314933e76c29969b82f410",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-minirootfs-3.17.2-x86_64.tar.gz",
+    "sha256": "b10fc6a33e462b9ccf704436071771051728d30f5d8b48adcddb9523c4c45328",
     "size": "3.2 MB"
   },
   "ubuntu:14.04": {
@@ -64,20 +64,20 @@
   },
   "ubuntu:18.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2023/01/13 18:00:00",
-    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20230112]",
+    "date": "2023/03/04 07:30:00",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20230303]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20230112/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "f30e4907fa6624e8916e5ea883d7c1a695d3e5e5e4ea41f454c005c2529d990f",
-    "size": "303 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20230303/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "e4a3ce12ca09960871e2355822bb855cccc24c1b5b5be33dd4e40396faa3217b",
+    "size": "304 MB"
   },
   "ubuntu:20.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2023/01/18 07:00:00",
-    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20230117]",
+    "date": "2023/02/10 07:00:00",
+    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20230209]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20230117/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "5cb836b84bd878bfdb0b3ddb50c615082afe670598c1d0bc9a7ee202fbec1998",
-    "size": "536 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20230209/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "b60ebf6e4d923fb81286b42ad366da939a646c3a7470786c930a4b16aeadf160",
+    "size": "537 MB"
   }
 }
