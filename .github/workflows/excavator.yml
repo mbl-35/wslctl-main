@@ -1,0 +1,44 @@
+name: Excavator
+
+on:
+  workflow_dispatch:
+  schedule:
+    # run every days
+    - cron: '0 0 * * *'
+
+jobs:
+  excavate:
+    name: Excavate
+    runs-on: ubuntu-latest
+    env: 
+      CI_COMMIT_MESSAGE: Upgrade Distributions
+      CI_COMMIT_AUTHOR: My GitHub Actions Bot
+
+    # Give the default GITHUB_TOKEN write permission to commit and push the
+    # added or changed files to the repository.
+    permissions:
+      contents: write
+
+    steps:
+    
+    - uses: actions/checkout@main
+
+    - name: Find upgrades
+      run: |
+        sudo apt-get -y install jq curl
+        chmod +x auto-update.sh
+        ./auto-update.sh
+
+    - name: Commit all changed files back to the repository
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with: 
+        commit_message: Automated Distribution Upgrade
+        file_pattern: 'register.json bucket/*.json'
+
+    - name: "Run if changes have been detected"
+      if: steps.auto-commit-action.outputs.changes_detected == 'true'
+      run: echo "Changes!"
+
+    - name: "Run if no changes have been detected"
+      if: steps.auto-commit-action.outputs.changes_detected == 'false'
+      run: echo "No Changes!"
