@@ -1,13 +1,4 @@
 {
-  "alpine:3.13": {
-    "source": "https://alpinelinux.org/",
-    "date": "2022/09/05 09:42:38",
-    "description": "Official Alpine Mini root filesystem 3.13.12 [20220809]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-minirootfs-3.13.12-x86_64.tar.gz",
-    "sha256": "78b4146b1542d392da1491f3712aeda401e160f0c00dd9e9b7a02c6734255b1d",
-    "size": "2.7 MB"
-  },
   "alpine:3.14": {
     "source": "https://alpinelinux.org/",
     "date": "2023/03/29 14:28:00",
@@ -16,24 +7,6 @@
     "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-minirootfs-3.14.10-x86_64.tar.gz",
     "sha256": "57804b832f4909a68fe56269b7fa98a37a03cc2c056dcd0327e55cbabe02ba50",
     "size": "2.7 MB"
-  },
-  "alpine:3.15": {
-    "source": "https://alpinelinux.org/",
-    "date": "2023/03/29 14:27:00",
-    "description": "Official Alpine Mini root filesystem 3.15.8 [20230329]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-minirootfs-3.15.8-x86_64.tar.gz",
-    "sha256": "9370729a3ad4dcaabc74e8bc3a0c04163f655ff0849fca16accba9f2d099895c",
-    "size": "2.7 MB"
-  },
-  "alpine:3.16": {
-    "source": "https://alpinelinux.org/",
-    "date": "2023/03/29 14:27:00",
-    "description": "Official Alpine Mini root filesystem 3.16.5 [20230329]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-minirootfs-3.16.5-x86_64.tar.gz",
-    "sha256": "81ffb319cd733dab2397db5cdc305c77d7be2da420d438950b869d4ffb8d6237",
-    "size": "2.6 MB"
   },
   "alpine:3.17": {
     "source": "https://alpinelinux.org/",
@@ -44,32 +17,32 @@
     "sha256": "a72010ff856162bff6dc507670e1a5673f02f884105a4eef38537bd63a663d48",
     "size": "3.2 MB"
   },
-  "ubuntu:14.04": {
-    "source": "https://wsldownload.azureedge.net",
-    "date": "2021/06/11 07:53:00",
-    "description": "Microsoft Archived Ubuntu Server 14.04 LTS (Trusty Tahr)",
-    "note": "Issues with initctl, policy-rc.d and tail",
-    "archive": "https://wsldownload.azureedge.net/14.04.5.3-server-cloudimg-amd64-root.tar.gz",
-    "sha256": "ff38b4c393260d1a282c0987005de5d2704d94979f247c90d548e85badcff673",
-    "size": "181.80 MB"
-  },
-  "ubuntu:16.04": {
-    "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/07/28 10:52:00",
-    "description": "Official Ubuntu 16.04 LTS (Xenial Xerus) [20211001]",
+  "alpine:3.16": {
+    "source": "https://alpinelinux.org/",
+    "date": "2023/03/29 14:27:00",
+    "description": "Official Alpine Mini root filesystem 3.16.5 [20230329]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/16.04/release-20211001/ubuntu-16.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "746bad563c891240c505c4955c4a134749db3ff9d9b0fa15ec6cab77518260ff",
-    "size": "245 MB"
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-minirootfs-3.16.5-x86_64.tar.gz",
+    "sha256": "81ffb319cd733dab2397db5cdc305c77d7be2da420d438950b869d4ffb8d6237",
+    "size": "2.6 MB"
   },
-  "ubuntu:18.04": {
-    "source": "https://cloud-images.ubuntu.com",
-    "date": "2023/03/04 07:30:00",
-    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20230303]",
+  "alpine:3.15": {
+    "source": "https://alpinelinux.org/",
+    "date": "2023/03/29 14:27:00",
+    "description": "Official Alpine Mini root filesystem 3.15.8 [20230329]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20230303/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "e4a3ce12ca09960871e2355822bb855cccc24c1b5b5be33dd4e40396faa3217b",
-    "size": "304 MB"
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-minirootfs-3.15.8-x86_64.tar.gz",
+    "sha256": "9370729a3ad4dcaabc74e8bc3a0c04163f655ff0849fca16accba9f2d099895c",
+    "size": "2.7 MB"
+  },
+  "alpine:3.13": {
+    "source": "https://alpinelinux.org/",
+    "date": "2022/09/05 09:42:38",
+    "description": "Official Alpine Mini root filesystem 3.13.12 [20220809]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-minirootfs-3.13.12-x86_64.tar.gz",
+    "sha256": "78b4146b1542d392da1491f3712aeda401e160f0c00dd9e9b7a02c6734255b1d",
+    "size": "2.7 MB"
   },
   "ubuntu:20.04": {
     "source": "https://cloud-images.ubuntu.com",
@@ -82,11 +55,38 @@
   },
   "ubuntu:22.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2023/04/12 21:38:00",
-    "description": "Official Official Ubuntu 22.04 LTS (Jammy Jellyfish) [20230412]",
+    "date": "2023/04/17 21:38:00",
+    "description": "Official Official Ubuntu 22.04 LTS (Jammy Jellyfish) [20230417]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/wsl/jammy/20230412/ubuntu-jammy-wsl-amd64-wsl.rootfs.tar.gz",
-    "sha256": "94d088cc233166021ea6945eafa22f49df017236319a6325b76ac3db899b47e4",
-    "size": "566 MB"
+    "archive": "https://cloud-images.ubuntu.com/wsl/jammy/20230417/ubuntu-jammy-wsl-amd64-wsl.rootfs.tar.gz",
+    "sha256": "ab751695027df984105377ab44d272ffbefb202bb97374c467dd5e658c1ee917",
+    "size": "565 MB"
+  },
+  "ubuntu:16.04": {
+    "source": "https://cloud-images.ubuntu.com",
+    "date": "2022/07/28 10:52:00",
+    "description": "Official Ubuntu 16.04 LTS (Xenial Xerus) [20211001]",
+    "note": "",
+    "archive": "https://cloud-images.ubuntu.com/releases/16.04/release-20211001/ubuntu-16.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "746bad563c891240c505c4955c4a134749db3ff9d9b0fa15ec6cab77518260ff",
+    "size": "245 MB"
+  },
+  "ubuntu:14.04": {
+    "source": "https://wsldownload.azureedge.net",
+    "date": "2021/06/11 07:53:00",
+    "description": "Microsoft Archived Ubuntu Server 14.04 LTS (Trusty Tahr)",
+    "note": "Issues with initctl, policy-rc.d and tail",
+    "archive": "https://wsldownload.azureedge.net/14.04.5.3-server-cloudimg-amd64-root.tar.gz",
+    "sha256": "ff38b4c393260d1a282c0987005de5d2704d94979f247c90d548e85badcff673",
+    "size": "181.80 MB"
+  },
+  "ubuntu:18.04": {
+    "source": "https://cloud-images.ubuntu.com",
+    "date": "2023/03/04 07:30:00",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20230303]",
+    "note": "",
+    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20230303/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "e4a3ce12ca09960871e2355822bb855cccc24c1b5b5be33dd4e40396faa3217b",
+    "size": "304 MB"
   }
 }
