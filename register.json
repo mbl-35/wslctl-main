@@ -1,65 +1,20 @@
 {
-  "alpine:3.14": {
-    "source": "https://alpinelinux.org/",
-    "date": "2023/03/29 14:28:00",
-    "description": "Official Alpine Mini root filesystem 3.14.10 [20230329]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-minirootfs-3.14.10-x86_64.tar.gz",
-    "sha256": "57804b832f4909a68fe56269b7fa98a37a03cc2c056dcd0327e55cbabe02ba50",
-    "size": "2.7 MB"
-  },
-  "alpine:3.17": {
-    "source": "https://alpinelinux.org/",
-    "date": "2023/03/29 14:45:00",
-    "description": "Official Alpine Mini root filesystem 3.17.3 [20230329]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-minirootfs-3.17.3-x86_64.tar.gz",
-    "sha256": "a72010ff856162bff6dc507670e1a5673f02f884105a4eef38537bd63a663d48",
-    "size": "3.2 MB"
-  },
-  "alpine:3.16": {
-    "source": "https://alpinelinux.org/",
-    "date": "2023/03/29 14:27:00",
-    "description": "Official Alpine Mini root filesystem 3.16.5 [20230329]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-minirootfs-3.16.5-x86_64.tar.gz",
-    "sha256": "81ffb319cd733dab2397db5cdc305c77d7be2da420d438950b869d4ffb8d6237",
-    "size": "2.6 MB"
-  },
-  "alpine:3.15": {
-    "source": "https://alpinelinux.org/",
-    "date": "2023/03/29 14:27:00",
-    "description": "Official Alpine Mini root filesystem 3.15.8 [20230329]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-minirootfs-3.15.8-x86_64.tar.gz",
-    "sha256": "9370729a3ad4dcaabc74e8bc3a0c04163f655ff0849fca16accba9f2d099895c",
-    "size": "2.7 MB"
-  },
-  "alpine:3.13": {
-    "source": "https://alpinelinux.org/",
-    "date": "2022/09/05 09:42:38",
-    "description": "Official Alpine Mini root filesystem 3.13.12 [20220809]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-minirootfs-3.13.12-x86_64.tar.gz",
-    "sha256": "78b4146b1542d392da1491f3712aeda401e160f0c00dd9e9b7a02c6734255b1d",
-    "size": "2.7 MB"
-  },
-  "ubuntu:20.04": {
+  "ubuntu:18.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2023/02/10 07:00:00",
-    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20230209]",
+    "date": "2023/03/04 07:30:00",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20230303]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20230209/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "b60ebf6e4d923fb81286b42ad366da939a646c3a7470786c930a4b16aeadf160",
-    "size": "537 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20230303/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "e4a3ce12ca09960871e2355822bb855cccc24c1b5b5be33dd4e40396faa3217b",
+    "size": "304 MB"
   },
   "ubuntu:22.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2023/04/24 21:38:00",
-    "description": "Official Official Ubuntu 22.04 LTS (Jammy Jellyfish) [20230424]",
+    "date": "2023/04/25 21:38:00",
+    "description": "Official Official Ubuntu 22.04 LTS (Jammy Jellyfish) [20230425]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/wsl/jammy/20230424/ubuntu-jammy-wsl-amd64-wsl.rootfs.tar.gz",
-    "sha256": "a667e654c05815a044354c830a79eca407b40d7a0b1950c9944ccf4e91993780",
+    "archive": "https://cloud-images.ubuntu.com/wsl/jammy/20230425/ubuntu-jammy-wsl-amd64-wsl.rootfs.tar.gz",
+    "sha256": "009d93e665f15cf6e2deeb6c80a140c4a27f0d737500aa2e62149eaf10fd2fb2",
     "size": "569 MB"
   },
   "ubuntu:16.04": {
@@ -71,6 +26,15 @@
     "sha256": "746bad563c891240c505c4955c4a134749db3ff9d9b0fa15ec6cab77518260ff",
     "size": "245 MB"
   },
+  "alpine:3.16": {
+    "source": "https://alpinelinux.org/",
+    "date": "2023/03/29 14:27:00",
+    "description": "Official Alpine Mini root filesystem 3.16.5 [20230329]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-minirootfs-3.16.5-x86_64.tar.gz",
+    "sha256": "81ffb319cd733dab2397db5cdc305c77d7be2da420d438950b869d4ffb8d6237",
+    "size": "2.6 MB"
+  },
   "ubuntu:14.04": {
     "source": "https://wsldownload.azureedge.net",
     "date": "2021/06/11 07:53:00",
@@ -80,13 +44,49 @@
     "sha256": "ff38b4c393260d1a282c0987005de5d2704d94979f247c90d548e85badcff673",
     "size": "181.80 MB"
   },
-  "ubuntu:18.04": {
+  "ubuntu:20.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2023/03/04 07:30:00",
-    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20230303]",
+    "date": "2023/02/10 07:00:00",
+    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20230209]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20230303/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "e4a3ce12ca09960871e2355822bb855cccc24c1b5b5be33dd4e40396faa3217b",
-    "size": "304 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20230209/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "b60ebf6e4d923fb81286b42ad366da939a646c3a7470786c930a4b16aeadf160",
+    "size": "537 MB"
+  },
+  "alpine:3.17": {
+    "source": "https://alpinelinux.org/",
+    "date": "2023/03/29 14:45:00",
+    "description": "Official Alpine Mini root filesystem 3.17.3 [20230329]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-minirootfs-3.17.3-x86_64.tar.gz",
+    "sha256": "a72010ff856162bff6dc507670e1a5673f02f884105a4eef38537bd63a663d48",
+    "size": "3.2 MB"
+  },
+  "alpine:3.14": {
+    "source": "https://alpinelinux.org/",
+    "date": "2023/03/29 14:28:00",
+    "description": "Official Alpine Mini root filesystem 3.14.10 [20230329]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-minirootfs-3.14.10-x86_64.tar.gz",
+    "sha256": "57804b832f4909a68fe56269b7fa98a37a03cc2c056dcd0327e55cbabe02ba50",
+    "size": "2.7 MB"
+  },
+  "alpine:3.13": {
+    "source": "https://alpinelinux.org/",
+    "date": "2022/09/05 09:42:38",
+    "description": "Official Alpine Mini root filesystem 3.13.12 [20220809]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-minirootfs-3.13.12-x86_64.tar.gz",
+    "sha256": "78b4146b1542d392da1491f3712aeda401e160f0c00dd9e9b7a02c6734255b1d",
+    "size": "2.7 MB"
+  },
+  "alpine:3.15": {
+    "source": "https://alpinelinux.org/",
+    "date": "2023/03/29 14:27:00",
+    "description": "Official Alpine Mini root filesystem 3.15.8 [20230329]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-minirootfs-3.15.8-x86_64.tar.gz",
+    "sha256": "9370729a3ad4dcaabc74e8bc3a0c04163f655ff0849fca16accba9f2d099895c",
+    "size": "2.7 MB"
   }
 }
