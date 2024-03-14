@@ -1,48 +1,21 @@
 {
-  "alpine:3.13": {
-    "source": "https://alpinelinux.org/",
-    "date": "2022/09/05 09:42:38",
-    "description": "Official Alpine Mini root filesystem 3.13.12 [20220809]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-minirootfs-3.13.12-x86_64.tar.gz",
-    "sha256": "78b4146b1542d392da1491f3712aeda401e160f0c00dd9e9b7a02c6734255b1d",
-    "size": "2.7 MB"
-  },
-  "alpine:3.17": {
-    "source": "https://alpinelinux.org/",
-    "date": "2024/01/26 20:42:00",
-    "description": "Official Alpine Mini root filesystem 3.17.7 [20240126]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-minirootfs-3.17.7-x86_64.tar.gz",
-    "sha256": "6fd69c5235bf12caac213ea90d2ab525bec051494a5084473fd98d838de39389",
-    "size": "3.2 MB"
-  },
-  "ubuntu:20.04": {
+  "ubuntu:16.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2023/02/10 07:00:00",
-    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20230209]",
+    "date": "2022/07/28 10:52:00",
+    "description": "Official Ubuntu 16.04 LTS (Xenial Xerus) [20211001]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20230209/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "b60ebf6e4d923fb81286b42ad366da939a646c3a7470786c930a4b16aeadf160",
-    "size": "537 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/16.04/release-20211001/ubuntu-16.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "746bad563c891240c505c4955c4a134749db3ff9d9b0fa15ec6cab77518260ff",
+    "size": "245 MB"
   },
   "ubuntu:22.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2024/03/07 21:37:00",
-    "description": "Official Official Ubuntu 22.04 LTS (Jammy Jellyfish) [20240307]",
+    "date": "2024/03/12 21:38:00",
+    "description": "Official Official Ubuntu 22.04 LTS (Jammy Jellyfish) [20240312]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/wsl/jammy/20240307/ubuntu-jammy-wsl-amd64-wsl.rootfs.tar.gz",
-    "sha256": "315b64fc66b18015a93f318ef49fd92351a1e09135d22f302d42177f0103fe73",
+    "archive": "https://cloud-images.ubuntu.com/wsl/jammy/20240312/ubuntu-jammy-wsl-amd64-wsl.rootfs.tar.gz",
+    "sha256": "78587142bb3a2f8272e117556b390e0dd82bfb1648d51a00ff1358ba7b19321b",
     "size": "224 MB"
-  },
-  "alpine:3.15": {
-    "source": "https://alpinelinux.org/",
-    "date": "2023/11/30 11:55:00",
-    "description": "Official Alpine Mini root filesystem 3.15.11 [20231130]",
-    "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-minirootfs-3.15.11-x86_64.tar.gz",
-    "sha256": "1040dc3c9cdf5c52778789e4fe5f7b44d10d24ce9167afbbf907e44789654b9d",
-    "size": "2.7 MB"
   },
   "alpine:3.14": {
     "source": "https://alpinelinux.org/",
@@ -53,23 +26,41 @@
     "sha256": "57804b832f4909a68fe56269b7fa98a37a03cc2c056dcd0327e55cbabe02ba50",
     "size": "2.7 MB"
   },
-  "ubuntu:16.04": {
-    "source": "https://cloud-images.ubuntu.com",
-    "date": "2022/07/28 10:52:00",
-    "description": "Official Ubuntu 16.04 LTS (Xenial Xerus) [20211001]",
+  "alpine:3.15": {
+    "source": "https://alpinelinux.org/",
+    "date": "2023/11/30 11:55:00",
+    "description": "Official Alpine Mini root filesystem 3.15.11 [20231130]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/16.04/release-20211001/ubuntu-16.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "746bad563c891240c505c4955c4a134749db3ff9d9b0fa15ec6cab77518260ff",
-    "size": "245 MB"
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-minirootfs-3.15.11-x86_64.tar.gz",
+    "sha256": "1040dc3c9cdf5c52778789e4fe5f7b44d10d24ce9167afbbf907e44789654b9d",
+    "size": "2.7 MB"
   },
-  "ubuntu:18.04": {
+  "ubuntu:20.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2023/03/04 07:30:00",
-    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20230303]",
+    "date": "2023/02/10 07:00:00",
+    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20230209]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20230303/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
-    "sha256": "e4a3ce12ca09960871e2355822bb855cccc24c1b5b5be33dd4e40396faa3217b",
-    "size": "304 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20230209/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "b60ebf6e4d923fb81286b42ad366da939a646c3a7470786c930a4b16aeadf160",
+    "size": "537 MB"
+  },
+  "alpine:3.16": {
+    "source": "https://alpinelinux.org/",
+    "date": "2024/01/26 20:41:00",
+    "description": "Official Alpine Mini root filesystem 3.16.9 [20240126]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-minirootfs-3.16.9-x86_64.tar.gz",
+    "sha256": "74d6fbf7d0717457233b445ef1ae59a86c471f5f70fd53de78ebe34424aae3c0",
+    "size": "2.6 MB"
+  },
+  "alpine:3.17": {
+    "source": "https://alpinelinux.org/",
+    "date": "2024/01/26 20:42:00",
+    "description": "Official Alpine Mini root filesystem 3.17.7 [20240126]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-minirootfs-3.17.7-x86_64.tar.gz",
+    "sha256": "6fd69c5235bf12caac213ea90d2ab525bec051494a5084473fd98d838de39389",
+    "size": "3.2 MB"
   },
   "ubuntu:14.04": {
     "source": "https://wsldownload.azureedge.net",
@@ -80,13 +71,22 @@
     "sha256": "ff38b4c393260d1a282c0987005de5d2704d94979f247c90d548e85badcff673",
     "size": "181.80 MB"
   },
-  "alpine:3.16": {
-    "source": "https://alpinelinux.org/",
-    "date": "2024/01/26 20:41:00",
-    "description": "Official Alpine Mini root filesystem 3.16.9 [20240126]",
+  "ubuntu:18.04": {
+    "source": "https://cloud-images.ubuntu.com",
+    "date": "2023/03/04 07:30:00",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20230303]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-minirootfs-3.16.9-x86_64.tar.gz",
-    "sha256": "74d6fbf7d0717457233b445ef1ae59a86c471f5f70fd53de78ebe34424aae3c0",
-    "size": "2.6 MB"
+    "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20230303/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
+    "sha256": "e4a3ce12ca09960871e2355822bb855cccc24c1b5b5be33dd4e40396faa3217b",
+    "size": "304 MB"
+  },
+  "alpine:3.13": {
+    "source": "https://alpinelinux.org/",
+    "date": "2022/09/05 09:42:38",
+    "description": "Official Alpine Mini root filesystem 3.13.12 [20220809]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-minirootfs-3.13.12-x86_64.tar.gz",
+    "sha256": "78b4146b1542d392da1491f3712aeda401e160f0c00dd9e9b7a02c6734255b1d",
+    "size": "2.7 MB"
   }
 }
