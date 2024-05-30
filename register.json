@@ -73,12 +73,12 @@
   },
   "ubuntu:22.04": {
     "source": "https://cloud-images.ubuntu.com",
-    "date": "2024/05/09 21:38:00",
-    "description": "Official Official Ubuntu 22.04 LTS (Jammy Jellyfish) [20240509]",
+    "date": "2024/05/28 21:38:00",
+    "description": "Official Official Ubuntu 22.04 LTS (Jammy Jellyfish) [20240528]",
     "note": "",
-    "archive": "https://cloud-images.ubuntu.com/wsl/jammy/20240509/ubuntu-jammy-wsl-amd64-wsl.rootfs.tar.gz",
-    "sha256": "828aba3d14c622566cc8e2dd9ee532da2321dac8c0f83c5f8d73e6caa4bdcf32",
-    "size": "225 MB"
+    "archive": "https://cloud-images.ubuntu.com/wsl/jammy/20240528/ubuntu-jammy-wsl-amd64-wsl.rootfs.tar.gz",
+    "sha256": "2a966a0c75e5cc12e71b2b3946b7defb2086e8f5b7c505624a229a81dc3c2b09",
+    "size": "226 MB"
   },
   "ubuntu:18.04": {
     "source": "https://cloud-images.ubuntu.com",
