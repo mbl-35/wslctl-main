@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ----------- ALPINE ----------------------------------------------------------------
-for release in 3.13 3.14 3.15 3.16 3.17; do
+for release in 3.13 3.14 3.15 3.16 3.17 3.18 3.19 3.20; do
     buckettag="alpine:$release"
     bucketfile=bucket/alpine-$release.json
 

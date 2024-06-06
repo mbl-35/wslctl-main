@@ -1,0 +1,12 @@
+{
+    "alpine:3.19":
+    {
+    "source": "https://alpinelinux.org/",
+    "date": "2024/01/26 17:53:00",
+    "description": "Official Alpine Mini root filesystem 3.19.1 [20240126]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-minirootfs-3.19.1-x86_64.tar.gz",
+    "sha256": "185123ceb6e7d08f2449fff5543db206ffb79decd814608d399ad447e08fa29e",
+    "size": "3 ,2 MB"
+    }
+}
