@@ -2,11 +2,11 @@
     "alpine:3.19":
     {
     "source": "https://alpinelinux.org/",
-    "date": "2024/07/22 18:16:00",
-    "description": "Official Alpine Mini root filesystem 3.19.3 [20240722]",
+    "date": "2024/09/06 11:35:00",
+    "description": "Official Alpine Mini root filesystem 3.19.4 [20240906]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-minirootfs-3.19.3-x86_64.tar.gz",
-    "sha256": "7b22b7493b548fc8797f04b2d2a797619882ac014fe04d3cfbc059542b8b686e",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-minirootfs-3.19.4-x86_64.tar.gz",
+    "sha256": "a2a87004e87720cbb0372c08b7de9b80748afdfd7fd72d2eab2ec0b074b92211",
     "size": "3.2 MB"
     }
 }
