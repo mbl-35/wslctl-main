@@ -17,15 +17,6 @@
     "sha256": "a2a87004e87720cbb0372c08b7de9b80748afdfd7fd72d2eab2ec0b074b92211",
     "size": "3.2 MB"
   },
-  "ubuntu:22.04": {
-    "source": "https://cloud-images.ubuntu.com",
-    "date": "2024/10/03 21:45:00",
-    "description": "Official Official Ubuntu 22.04 LTS (Jammy Jellyfish) [20241003]",
-    "note": "",
-    "archive": "https://cloud-images.ubuntu.com/wsl/jammy/20241003/ubuntu-jammy-wsl-amd64-wsl.rootfs.tar.gz",
-    "sha256": "1c6c6edaa6592d13c6e344b2b633a6bac3769655735bd1a8482d05545eb26fac",
-    "size": "321 MB"
-  },
   "alpine:3.13": {
     "source": "https://alpinelinux.org/",
     "date": "2022/09/05 09:42:38",
