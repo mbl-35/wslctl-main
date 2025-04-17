@@ -33,7 +33,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with: 
         commit_message: Automated Distribution Upgrade
-        file_pattern: 'register.json bucket/*.json'
+        file_pattern: 'register.json'
 
     - name: "Run if changes have been detected"
       if: steps.auto-commit-action.outputs.changes_detected == 'true'
