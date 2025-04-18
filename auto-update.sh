@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 SDIR=$(cd -- "$(dirname "$0")" && pwd) 
 
 
