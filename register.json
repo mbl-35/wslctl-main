@@ -83,7 +83,7 @@
   "ubuntu:16.04": {
     "source": "https://cloud-images.ubuntu.com",
     "date": "2021/10/01 19:58:00",
-    "description": "Official Ubuntu 16.04 LTS (ERROR: Ubuntu codename not found for '16.04') [20211001]",
+    "description": "Official Ubuntu 16.04 LTS (Xenial Xerus) [20211001]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/releases/16.04/release-20211001/ubuntu-16.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
     "sha256": "746bad563c891240c505c4955c4a134749db3ff9d9b0fa15ec6cab77518260ff",
@@ -92,7 +92,7 @@
   "ubuntu:18.04": {
     "source": "https://cloud-images.ubuntu.com",
     "date": "2023/06/07 18:26:00",
-    "description": "Official Ubuntu 18.04 LTS (ERROR: Ubuntu codename not found for '18.04') [20230607]",
+    "description": "Official Ubuntu 18.04 LTS (Bionic Beaver) [20230607]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/releases/18.04/release-20230607/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
     "sha256": "b04539d2412a711dd69738a736aa17626869b3cb23e21538961a96667c0b31a6",
@@ -101,7 +101,7 @@
   "ubuntu:20.04": {
     "source": "https://cloud-images.ubuntu.com",
     "date": "2024/07/11 01:28:00",
-    "description": "Official Ubuntu 20.04 LTS (ERROR: Ubuntu codename not found for '20.04') [20240710]",
+    "description": "Official Ubuntu 20.04 LTS (Focal Fossa) [20240710]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/releases/20.04/release-20240710/ubuntu-20.04-server-cloudimg-amd64-wsl.rootfs.tar.gz",
     "sha256": "20c1fa742f1685be96669790feacd3e087ee895d0a79aba0b34012611bc8ebb2",
@@ -110,7 +110,7 @@
   "ubuntu:22.04": {
     "source": "https://cloud-images.ubuntu.com",
     "date": "2024/03/05 15:43:00",
-    "description": "Official Ubuntu 22.04 LTS (ERROR: Ubuntu codename not found for '22.04') [20240304]",
+    "description": "Official Ubuntu 22.04 LTS (Jammy Jellyfish) [20240304]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/wsl/releases/22.04/20240304/ubuntu-jammy-wsl-amd64-wsl.rootfs.tar.gz",
     "sha256": "de9f6149da07b90350a3ccd94b4858b82fef71f0ec2982acb93de583c4c87585",
@@ -119,7 +119,7 @@
   "ubuntu:24.04": {
     "source": "https://cloud-images.ubuntu.com",
     "date": "2024/04/25 17:10:00",
-    "description": "Official Ubuntu 24.04 LTS (ERROR: Ubuntu codename not found for '24.04') [20240423]",
+    "description": "Official Ubuntu 24.04 LTS (Noble Numbat) [20240423]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/wsl/releases/24.04/20240423/ubuntu-noble-wsl-amd64-wsl.rootfs.tar.gz",
     "sha256": "8251e27ffff381a4af5f41dcb94d867de3e0d9774a9241908ab34555d99315ea",
