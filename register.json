@@ -80,6 +80,15 @@
     "sha256": "1a694899e406ce55d32334c47ac0b2efb6c06d7e878102d1840892ad44cd5239",
     "size": "3.51 MB"
   },
+  "alpine:3.22": {
+    "source": "https://dl-cdn.alpinelinux.org",
+    "date": "2025/05/30 12:13:00",
+    "description": "Official Alpine Release 3.22.0 [20250530]",
+    "note": "",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-minirootfs-3.22.0-x86_64.tar.gz",
+    "sha256": "18879884e35b0718f017a50ff85b5e6568279e97233fc42822229585feb2fa4d",
+    "size": "3.66 MB"
+  },
   "ubuntu:16.04": {
     "source": "https://cloud-images.ubuntu.com",
     "date": "2021/10/01 19:58:00",
