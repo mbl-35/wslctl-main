@@ -91,12 +91,12 @@
   },
   "alpine:3.23": {
     "source": "https://dl-cdn.alpinelinux.org",
-    "date": "2025/12/03 15:48:00",
-    "description": "Official Alpine Release 3.23.0 [20251203]",
+    "date": "2025/12/16 20:29:00",
+    "description": "Official Alpine Release 3.23.1 [20251216]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/x86_64/alpine-minirootfs-3.23.0-x86_64.tar.gz",
-    "sha256": "ce8f782f1628d046fb6360eff880b898e5205ed91106d9d14ff4fcb97431bbde",
-    "size": "3.71 MB"
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/x86_64/alpine-minirootfs-3.23.1-x86_64.tar.gz",
+    "sha256": "0e0de9f50778a86cb83a0fbb7b28d0762e7dbcc547f13a31f1512b83b543b97f",
+    "size": "4.09 MB"
   },
   "ubuntu:16.04": {
     "source": "https://cloud-images.ubuntu.com",
