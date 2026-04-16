@@ -64,39 +64,39 @@
   },
   "alpine:3.20": {
     "source": "https://dl-cdn.alpinelinux.org",
-    "date": "2026/01/27 21:37:00",
-    "description": "Official Alpine Release 3.20.9 [20260127]",
+    "date": "2026/04/15 16:09:00",
+    "description": "Official Alpine Release 3.20.10 [20260415]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-minirootfs-3.20.9-x86_64.tar.gz",
-    "sha256": "ad094d86f5ae5189d4236524e8ebe042c42b3d4d8555825664cea34e103886ff",
-    "size": "3.49 MB"
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-minirootfs-3.20.10-x86_64.tar.gz",
+    "sha256": "0d44a414245f043ae56872a23762e6c9bee585da2cbe4aa81cbd0331eaf53223",
+    "size": "3.5 MB"
   },
   "alpine:3.21": {
     "source": "https://dl-cdn.alpinelinux.org",
-    "date": "2026/01/27 21:36:00",
-    "description": "Official Alpine Release 3.21.6 [20260127]",
+    "date": "2026/04/15 16:10:00",
+    "description": "Official Alpine Release 3.21.7 [20260415]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-minirootfs-3.21.6-x86_64.tar.gz",
-    "sha256": "460e7ea6d359b7ea6913326639cb88e5eef65292a09b63c89b4aecf048a90959",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-minirootfs-3.21.7-x86_64.tar.gz",
+    "sha256": "8cba1ea3e8b500ea986a313d8eecf3d5952a2a0d23a69117bb81c023d9ceac05",
     "size": "3.51 MB"
   },
   "alpine:3.22": {
     "source": "https://dl-cdn.alpinelinux.org",
-    "date": "2026/01/27 21:20:00",
-    "description": "Official Alpine Release 3.22.3 [20260127]",
+    "date": "2026/04/15 05:01:00",
+    "description": "Official Alpine Release 3.22.4 [20260415]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-minirootfs-3.22.3-x86_64.tar.gz",
-    "sha256": "3b82169293fd705eb709f56eaf23cc1da75ba1e6fdd00985cf5b1357c4af38b5",
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-minirootfs-3.22.4-x86_64.tar.gz",
+    "sha256": "0737c622ddefa7c91767ce8ab5dd4722f265cd580b21332ec5f22cfe54a84251",
     "size": "3.66 MB"
   },
   "alpine:3.23": {
     "source": "https://dl-cdn.alpinelinux.org",
-    "date": "2026/01/27 21:19:00",
-    "description": "Official Alpine Release 3.23.3 [20260127]",
+    "date": "2026/04/15 04:51:00",
+    "description": "Official Alpine Release 3.23.4 [20260415]",
     "note": "",
-    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/x86_64/alpine-minirootfs-3.23.3-x86_64.tar.gz",
-    "sha256": "42d0e6d8de5521e7bf92e075e032b5690c1d948fa9775efa32a51a38b25460fb",
-    "size": "3.71 MB"
+    "archive": "https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/x86_64/alpine-minirootfs-3.23.4-x86_64.tar.gz",
+    "sha256": "85498865362aa7ebececa0d725a2f2e4db7ac4e4b2850b8df21645afa0d03ee3",
+    "size": "3.72 MB"
   },
   "ubuntu:16.04": {
     "source": "https://cloud-images.ubuntu.com",
