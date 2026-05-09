@@ -136,18 +136,19 @@ ubuntu_dl_cdn_release() {
     }
 
 ubuntu_dl_codenames() {
+    # url does not work anymore ..
     cache ubuntu_codenames curl -sL --fail \
         "https://git.launchpad.net/ubuntu/+source/distro-info-data/plain/ubuntu.csv"
 }
 
 ubuntu_codename(){
-    local codename="$(ubuntu_dl_codenames | grep -E "^$1" | cut -d ',' -f 3 )" 
+    local codename="$(grep -E "^$1," ./csv/ubuntu.csv | cut -d ',' -f 3 )" 
     [ -z "$codename" ] && error "Ubuntu codename not found for '$1'"
     echo "$codename"
 }
 
 ubuntu_codename_full(){
-    local codename="$(ubuntu_dl_codenames | grep -E "^$1" | cut -d ',' -f 2 )" 
+    local codename="$(grep -E "^$1," ./csv/ubuntu.csv | cut -d ',' -f 2 )" 
     [ -z "$codename" ] && error "Ubuntu codename not found for '$1'"
     echo "$codename"
 }
