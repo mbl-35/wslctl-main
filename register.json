@@ -137,7 +137,7 @@
   "ubuntu:24.04": {
     "source": "https://cloud-images.ubuntu.com",
     "date": "2024/04/25 17:10:00",
-    "description": "Official Ubuntu 24.04 LTS (Noble Numba) [20240423]",
+    "description": "Official Ubuntu 24.04 LTS (Noble Numbat) [20240423]",
     "note": "",
     "archive": "https://cloud-images.ubuntu.com/wsl/releases/24.04/20240423/ubuntu-noble-wsl-amd64-wsl.rootfs.tar.gz",
     "sha256": "8251e27ffff381a4af5f41dcb94d867de3e0d9774a9241908ab34555d99315ea",
